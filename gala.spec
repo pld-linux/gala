@@ -2,7 +2,7 @@
 %define		subver	293
 Summary:	Pantheon's Window Manager
 Name:		gala
-Version:	0.1
+Version:	0.1.0
 Release:	0.%{subver}.%{rel}
 License:	GPL v3
 Group:		X11/Applications
@@ -12,14 +12,14 @@ URL:		https://launchpad.net/gala
 BuildRequires:	bamf3-devel
 BuildRequires:	clutter-devel >= 1.9.16
 BuildRequires:	clutter-gtk-devel
-BuildRequires:	cmake
+BuildRequires:	cmake >= 2.8
 BuildRequires:	gettext-devel
 BuildRequires:	granite-devel
 BuildRequires:	libgee0.6-devel
 BuildRequires:	mutter-devel >= 3.4
 BuildRequires:	pkgconfig
 BuildRequires:	plank-devel >= 0.2.0.748
-BuildRequires:	vala >= 0.10.0
+BuildRequires:	vala >= 0.16.1
 BuildRequires:	xorg-lib-libXfixes-devel
 Requires:	glib2 >= 1:2.26.0
 Requires:	gtk-update-icon-cache
