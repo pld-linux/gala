@@ -13,13 +13,13 @@ BuildRequires:	bamf3-devel
 BuildRequires:	clutter-devel >= 1.9.16
 BuildRequires:	clutter-gtk-devel
 BuildRequires:	cmake >= 2.8
-BuildRequires:	gettext-devel
 BuildRequires:	granite-devel
 BuildRequires:	libgee0.6-devel
 BuildRequires:	mutter-devel >= 3.4
 BuildRequires:	pkgconfig
 BuildRequires:	plank-devel >= 0.2.0.748
 BuildRequires:	vala >= 0.16.1
+BuildRequires:	vala-libgee0.6
 BuildRequires:	xorg-lib-libXfixes-devel
 Requires:	glib2 >= 1:2.26.0
 Requires:	gtk-update-icon-cache
